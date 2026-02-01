@@ -1,15 +1,15 @@
-✅ Design Bird
-✅ Design Parking Lot
-✅ Design Elevator
-✅ Design ATM
-✅ Design Vending Machine
-✅ Design Coffee Machine
-✅ Design Library System
-✅ Design Logger
-✅ Design Notification System
-✅ Design Shopping Cart
-✅ Design Tic Tac Toe
-✅ Design Snake & Ladder
-✅ Design Cab Booking (Mini Uber)
-✅ Design Movie Ticket Booking
-✅ Design URL Shortener
+- Design Bird
+- Design Parking Lot
+- Design Elevator
+- Design ATM
+- Design Vending Machine
+- Design Coffee Machine
+- Design Library System
+- Design Logger
+- Design Notification System
+- Design Shopping Cart
+- Design Tic Tac Toe
+- Design Snake & Ladder
+- Design Cab Booking (Mini Uber)
+- Design Movie Ticket Booking
+- Design URL Shortener

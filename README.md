@@ -1,4 +1,5 @@
-- [x] Design Bird
+- [] Design A Pen
+- [] Design Bird
 - [ ] Design Parking Lot
 - [ ] Design Elevator
 - [ ] Design ATM

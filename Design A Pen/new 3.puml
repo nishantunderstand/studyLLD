@@ -10,12 +10,10 @@ abstract class Pen{
 + write() : void
 }
 
-
 Class BallPen
 Class GelPen
 Class FountainPen
 Class MarkerPen
-
 
 BallPen --|> Pen
 GelPen  --|> Pen

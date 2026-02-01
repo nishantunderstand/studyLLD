@@ -1,0 +1,8 @@
+Pen HAS-A Nib
+Pen HAS-A Refill
+Pen HAS-A Cap
+BallPen IS-A Pen
+
+write()
+
+

@@ -1,0 +1,40 @@
+@startuml
+
+abstract class Pen{
+- brand : String 
+- color : String
+- isClickable : boolean
+- nib : Nib
+- refill : Refill
+- cap : Cap
++ write() : void
+}
+
+
+Class BallPen
+Class GelPen
+Class FountainPen
+Class MarkerPen
+
+
+BallPen --|> Pen
+GelPen  --|> Pen
+FountainPen --|> Pen
+MarkerPen --|> Pen
+
+
+Class Nib{
+- tipSize : double
+}
+
+
+class Cap{
+- removable : boolean
+}
+
+
+Pen *-- Nib
+Pen *-- Refill
+Pen *-- Cap
+
+@enduml

@@ -1,0 +1,16 @@
+Design a Pen
+
+Variable
+- Colour : Enum
+- int NibSize
+- boolean Refill 
+- boolean Clickable 
+- PenType : Enum 
+- 
+
+Method 
+()write
+
+
+I am using draw.io
+Did i miss it ?

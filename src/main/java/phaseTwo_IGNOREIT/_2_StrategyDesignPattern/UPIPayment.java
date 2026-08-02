@@ -1,4 +1,4 @@
-package phaseTwo._2_StrategyDesignPattern;
+package phaseTwo_IGNOREIT._2_StrategyDesignPattern;
 
 public class UPIPayment implements PaymentStrategy {
 

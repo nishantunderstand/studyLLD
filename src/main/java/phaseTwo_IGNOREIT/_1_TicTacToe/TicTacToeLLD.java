@@ -1,4 +1,4 @@
-package phaseTwo._1_TicTacToe;
+package phaseTwo_IGNOREIT._1_TicTacToe;
 
 // Main class with game loop
 import java.util.ArrayList;

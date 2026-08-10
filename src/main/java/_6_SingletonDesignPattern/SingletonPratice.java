@@ -7,7 +7,7 @@ package _6_SingletonDesignPattern;
 public class SingletonPratice {
     private static volatile SingletonPratice INSTANCE;
     private SingletonPratice(){}
-    private SingletonPratice SingletonPratice getInstance(){
+    private static SingletonPratice getInstance(){
         if(INSTANCE==null){
             synchronized(SingletonPratice.class){
                 if(INSTANCE==null){

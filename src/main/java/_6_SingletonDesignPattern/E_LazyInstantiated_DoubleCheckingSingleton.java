@@ -7,11 +7,16 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
 public class E_LazyInstantiatedDoubleCheckingSingleton {
+
     private static volatile E_LazyInstantiatedDoubleCheckingSingleton instance;
+
     private E_LazyInstantiatedDoubleCheckingSingleton(){}
+
     public static E_LazyInstantiatedDoubleCheckingSingleton getInstance(){
         if(instance==null){
-            synchronized(E_LazyInstantiatedDoubleCheckingSingleton.class){
+
+            synchronized(E_LazyInstantiatedDoubleCheckingSingleton.class){  //<--
+
                 if(instance==null){
                     instance = new E_LazyInstantiatedDoubleCheckingSingleton();
                 }

@@ -7,8 +7,11 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
 public class D_LazyInstantiatedThreadSafeSingleton {
+
     private static D_LazyInstantiatedThreadSafeSingleton instance;
+
     private D_LazyInstantiatedThreadSafeSingleton(){}
+
     public static synchronized D_LazyInstantiatedThreadSafeSingleton getInstance(){
         if(instance==null){
             instance = new D_LazyInstantiatedThreadSafeSingleton();

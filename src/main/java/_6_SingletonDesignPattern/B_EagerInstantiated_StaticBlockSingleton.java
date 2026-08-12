@@ -7,8 +7,11 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
 public class B_EagerInstantiatedStaticBlockSingleton {
+
     private static B_EagerInstantiatedStaticBlockSingleton instance;
+
     private B_EagerInstantiatedStaticBlockSingleton(){}
+
     static{
         try{
             instance = new B_EagerInstantiatedStaticBlockSingleton();
@@ -16,7 +19,9 @@ public class B_EagerInstantiatedStaticBlockSingleton {
             throw new RuntimeException("Exception Occured in creating Singleton instance");
         }
     }
+
     public static B_EagerInstantiatedStaticBlockSingleton getInstance(){
         return  instance;
     }
 }
+

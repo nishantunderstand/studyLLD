@@ -7,7 +7,13 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
 public class _SingletonTemplate {
-    // Field : private final static
     // Constructor : private Default
-    // Static getInstance : for Instance Reterival
+    // Field : private static
+        // Sometime you need to make it final , volatile
+    // Static getInstance : for Instance Retrieval
+
+    // <---  Standard Approach --->
+    // a) Hiding the constructors
+    // b) private static variable instance of same type as of class
+    // c) Providing public static method getInstance()
 }

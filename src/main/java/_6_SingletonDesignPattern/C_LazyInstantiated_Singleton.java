@@ -6,15 +6,15 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://blog.algomaster.io/p/singleton-design-pattern">Singleton Design Pattern – AlgoMaster</a>
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
-public class C_LazyInstantiatedSingleton {
+public class C_LazyInstantiated_Singleton {
 
-    private static C_LazyInstantiatedSingleton instance;
+    private static C_LazyInstantiated_Singleton instance;
 
-    private C_LazyInstantiatedSingleton(){}
+    private C_LazyInstantiated_Singleton(){}
 
-    public static C_LazyInstantiatedSingleton getInstance(){
+    public static C_LazyInstantiated_Singleton getInstance(){
         if(instance==null){
-            instance = new C_LazyInstantiatedSingleton();
+            instance = new C_LazyInstantiated_Singleton();
         }
         return instance;
     }

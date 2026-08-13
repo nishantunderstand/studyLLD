@@ -6,13 +6,13 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://blog.algomaster.io/p/singleton-design-pattern">Singleton Design Pattern – AlgoMaster</a>
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
-public class A_EagerInstantiatedSingleton {
+public class A_EagerInstantiated_Singleton {
 
-    private static final A_EagerInstantiatedSingleton instance = new A_EagerInstantiatedSingleton();
+    private static final A_EagerInstantiated_Singleton instance = new A_EagerInstantiated_Singleton();
 
-    private A_EagerInstantiatedSingleton(){}
+    private A_EagerInstantiated_Singleton(){}
 
-    private static A_EagerInstantiatedSingleton getInstance(){
+    private static A_EagerInstantiated_Singleton getInstance(){
         return instance;
     }
 }

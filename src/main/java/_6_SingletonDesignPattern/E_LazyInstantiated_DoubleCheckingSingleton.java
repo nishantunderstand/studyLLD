@@ -6,19 +6,19 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://blog.algomaster.io/p/singleton-design-pattern">Singleton Design Pattern – AlgoMaster</a>
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
-public class E_LazyInstantiatedDoubleCheckingSingleton {
+public class E_LazyInstantiated_DoubleCheckingSingleton {
 
-    private static volatile E_LazyInstantiatedDoubleCheckingSingleton instance;
+    private static volatile E_LazyInstantiated_DoubleCheckingSingleton instance;
 
-    private E_LazyInstantiatedDoubleCheckingSingleton(){}
+    private E_LazyInstantiated_DoubleCheckingSingleton(){}
 
-    public static E_LazyInstantiatedDoubleCheckingSingleton getInstance(){
-        if(instance==null){
+    public static E_LazyInstantiated_DoubleCheckingSingleton getInstance(){
+        if(instance==null){ //<--
 
-            synchronized(E_LazyInstantiatedDoubleCheckingSingleton.class){  //<--
+            synchronized(E_LazyInstantiated_DoubleCheckingSingleton.class){  //<--
 
-                if(instance==null){
-                    instance = new E_LazyInstantiatedDoubleCheckingSingleton();
+                if(instance==null){ //<--
+                    instance = new E_LazyInstantiated_DoubleCheckingSingleton();
                 }
             }
         }

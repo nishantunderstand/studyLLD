@@ -6,21 +6,21 @@ package _6_SingletonDesignPattern;
  * @see <a href="https://blog.algomaster.io/p/singleton-design-pattern">Singleton Design Pattern – AlgoMaster</a>
  * @see <a href="https://javaconceptoftheday.com/java-singleton-design-pattern-implementation-with-examples/">Singleton Design Pattern – JavaConceptOfTheDay</a>
  */
-public class B_EagerInstantiatedStaticBlockSingleton {
+public class B_EagerInstantiated_StaticBlockSingleton {
 
-    private static B_EagerInstantiatedStaticBlockSingleton instance;
+    private static B_EagerInstantiated_StaticBlockSingleton instance;
 
-    private B_EagerInstantiatedStaticBlockSingleton(){}
+    private B_EagerInstantiated_StaticBlockSingleton(){}
 
     static{
         try{
-            instance = new B_EagerInstantiatedStaticBlockSingleton();
+            instance = new B_EagerInstantiated_StaticBlockSingleton();
         }catch(Exception e){
             throw new RuntimeException("Exception Occured in creating Singleton instance");
         }
     }
 
-    public static B_EagerInstantiatedStaticBlockSingleton getInstance(){
+    public static B_EagerInstantiated_StaticBlockSingleton getInstance(){
         return  instance;
     }
 }

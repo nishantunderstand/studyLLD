@@ -25,3 +25,20 @@ public class E_LazyInstantiated_DoubleCheckingSingleton {
         return instance;
     }
 }
+
+
+/**
+ * Remaining Problems
+ *
+ * Even this Singleton can be broken using:
+ *
+ * Reflection
+ * Serialization
+ * Cloning
+ */
+
+
+// Why static
+// Why Volatile
+// Why private constructor
+// Why Synchronized

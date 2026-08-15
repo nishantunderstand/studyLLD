@@ -1,4 +1,4 @@
-package _4_SOLID_LISKOV_Good;
+package _4c_SOLID_LISKOV_Good;
 
 public class Main {
     public static void main(String[] args) {

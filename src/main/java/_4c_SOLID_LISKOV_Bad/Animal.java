@@ -1,4 +1,4 @@
-package _4a_SOLID_LISKOV_Bad;
+package _4c_SOLID_LISKOV_Bad;
 
 public class Animal {
     void eat(){

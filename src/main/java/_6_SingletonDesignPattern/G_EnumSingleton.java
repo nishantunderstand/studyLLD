@@ -9,7 +9,6 @@ package _6_SingletonDesignPattern;
 public enum G_EnumSingleton {
     INSTANCE;
 
-
     public void doSomething (){
         // Add Singleton Logic
     }

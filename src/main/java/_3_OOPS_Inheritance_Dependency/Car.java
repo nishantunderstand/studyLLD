@@ -1,5 +1,7 @@
-package _4e_SOLID_Dependency;
+package _3_OOPS_Inheritance_Dependency;
 
+
+// _3_OOPS_Inheritance_Dependency;
 /**
  * Created : 2026-08-15 13:18:02
  */
@@ -14,3 +16,5 @@ public class Car {
 /**
  * Car → depends on → Engine
  */
+
+// Here Car Own the Engine

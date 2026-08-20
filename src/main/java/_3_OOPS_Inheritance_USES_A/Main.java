@@ -1,4 +1,4 @@
-package _5c_USES_A;
+package _3_OOPS_Inheritance_USES_A;
 
 public class Main {
     public static void main(String[] args) {

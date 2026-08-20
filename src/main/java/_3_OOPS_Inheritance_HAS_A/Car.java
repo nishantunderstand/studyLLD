@@ -1,4 +1,4 @@
-package _5a_HAS_A;
+package _3_OOPS_Inheritance_HAS_A;
 
 public class Car {
     private Engine engine = new Engine();

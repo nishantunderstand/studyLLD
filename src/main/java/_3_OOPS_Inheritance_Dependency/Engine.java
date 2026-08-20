@@ -1,4 +1,4 @@
-package _4e_SOLID_Dependency;
+package _3_OOPS_Inheritance_Dependency;
 
 /**
  * Created : 2026-08-15 13:17:35

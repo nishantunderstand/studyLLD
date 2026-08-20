@@ -1,4 +1,4 @@
-package _4e_SOLID_DependencyInversion;
+package _3_OOPS_Inheritance_DependencyInversion;
 
 /**
  * Created : 2026-08-15 13:27:49

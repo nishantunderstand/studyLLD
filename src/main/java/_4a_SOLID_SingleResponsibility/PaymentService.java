@@ -1,4 +1,4 @@
-package _4a_SOLID_SingleResponse;
+package _4a_SOLID_SingleResponsibility;
 
 
 //S — Single Responsibility Principle

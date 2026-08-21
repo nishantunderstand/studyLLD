@@ -1,4 +1,4 @@
-package _4d_SOLID_Interface_Good;
+package _4e_SOLID_Interface_Good;
 
 public interface Workable {
     void work();

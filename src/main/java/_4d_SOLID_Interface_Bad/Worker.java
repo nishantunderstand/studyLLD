@@ -1,4 +1,4 @@
-package _4d_SOLID_Interface_Bad;
+package _4e_SOLID_Interface_Bad;
 
 public interface Worker {
     void work();

@@ -8,8 +8,10 @@ package _6_SingletonDesignPattern;
  */
 public class _SingletonTemplate {
     // Constructor : private Default
-    // Field : private static
-        // Sometime you need to make it final , volatile
+    // Field :
+        // private static final ClassType
+        // private static ClassType
+        // volatile : When Thread Saftey
     // Static getInstance : for Instance Retrieval
 
     // <---  Standard Approach --->

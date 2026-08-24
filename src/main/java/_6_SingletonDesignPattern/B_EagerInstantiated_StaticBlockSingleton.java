@@ -8,9 +8,9 @@ package _6_SingletonDesignPattern;
  */
 public class B_EagerInstantiated_StaticBlockSingleton {
 
-    private static B_EagerInstantiated_StaticBlockSingleton instance;
+    private static final B_EagerInstantiated_StaticBlockSingleton instance;
 
-    private B_EagerInstantiated_StaticBlockSingleton(){}
+    B_EagerInstantiated_StaticBlockSingleton(){}
 
     static{
         try{

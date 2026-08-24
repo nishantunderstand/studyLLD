@@ -1,4 +1,4 @@
-package _4e_SOLID_Interface_Good;  /**
+package _4d_SOLID_Interface_Good;  /**
  * Created : 2026-08-15 13:14:02
  */
 public class Human implements Eatable, Sleepable, Workable{

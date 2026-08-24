@@ -1,4 +1,4 @@
-package _4e_SOLID_Interface_Bad;
+package _4d_SOLID_Interface_Bad;
 
 /**
  * Created : 2026-08-15 13:11:19

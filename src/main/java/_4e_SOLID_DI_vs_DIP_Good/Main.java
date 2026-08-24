@@ -1,4 +1,4 @@
-package _4d_SOLID_DI_vs_DIP_Good;
+package _4e_SOLID_DI_vs_DIP_Good;
 
 public class Main {
 
@@ -7,7 +7,7 @@ public class Main {
         // 1. Create dependency
         //PaymentGateway gateway = new RazorpayPayment();
         PaymentGateway gateway = new UPIPayment();
-        // Dynamic Method Dispact + Liskov Subustition Principl
+        // Dynamic Method Dispact + Liskov Subustition Principle
 
         // 2. Inject dependency
         PaymentService service = new PaymentService(gateway);

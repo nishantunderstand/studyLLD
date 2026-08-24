@@ -14,9 +14,7 @@ public class E_LazyInstantiated_DoubleCheckingSingleton {
 
     public static E_LazyInstantiated_DoubleCheckingSingleton getInstance(){
         if(instance==null){ //<--
-
             synchronized(E_LazyInstantiated_DoubleCheckingSingleton.class){  //<--
-
                 if(instance==null){ //<--
                     instance = new E_LazyInstantiated_DoubleCheckingSingleton();
                 }

@@ -1,4 +1,4 @@
-package _4e_SOLID_DI_vs_DIP_Good;
+package _5_SOLID_DI_vs_DIP_Good;
 
 class RazorpayPayment implements PaymentGateway {
 
